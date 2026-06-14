@@ -1,17 +1,17 @@
 export default function Hero() {
   return (
-    <section className="text-center py-16 bg-gray-100">
-      <h2 className="text-4xl font-bold mb-4">
+    <section className="bg-gray-200 text-center py-20">
+      <h1 className="text-5xl font-bold text-black">
         Organize Your Studies Smarter
-      </h2>
+      </h1>
 
-      <p className="text-lg mb-6">
+      <p className="mt-4 text-lg text-gray-700">
         StudySync helps students manage tasks, deadlines, and study goals.
       </p>
 
-      <button className="bg-blue-600 text-white px-6 py-3 rounded-lg">
+      <button className="mt-8 bg-blue-600 text-white px-6 py-3 rounded">
         Get Started
       </button>
     </section>
   );
-}
+} 
